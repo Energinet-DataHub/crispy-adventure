@@ -1,4 +1,7 @@
 name: "Security and Quality"
 
 queries:
-  - uses: security-and-quality
+  - name: Security & quality checks
+    uses: security-and-quality
+  - name: C# all checks
+    uses: codeql/csharp-all
