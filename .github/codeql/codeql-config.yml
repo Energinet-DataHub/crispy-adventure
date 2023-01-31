@@ -3,5 +3,3 @@ name: "Security and Quality"
 queries:
   - name: Security & quality checks
     uses: security-and-quality
-  - name: C# all checks
-    uses: codeql/csharp-all
